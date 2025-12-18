@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    src: url(fonts/SnowburstOne-Regular.ttf);
+    font-family: "SnowburstOne";
+}
+
+@font-face {
+    src: url(fonts/SueEllenFrancisco-Regular.ttf);
+    font-family: SueEllenFransico ;
+}
+
+@font-face {
+    font-family:TheGirlNextDoor;
+    src: url(fonts/TheGirlNextDoor-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: gloria;
+    src: url(fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: teko;
+    src: url(fonts/Teko-VariableFont_wght.ttf);
+}
+
+
+@font-face {
+    font-family: pacifio;
+    src: url(fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: quicksand;
+    src: url(fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+header{
+    color:rgb(240, 135, 135);
+    font-family: "SueEllenFransico" ;
+    font-size: 5.5em;
+    font-weight: 600;
+margin-bottom:0px ;
+text-align: center;
+}
+
+h2{
+color: rgb(240, 135, 135);
+font-family: "SueEllenFransico";
+font-size: 6.6em;
+font-weight: 580;
+margin-top: 20px;
+margin-right: 10px;
+margin-bottom: 25px;
+}
+
+body{
+    background-color:rgb(248, 250, 180);
+ color: rgb(255, 248, 220);
+ margin-left: 10px;
+}
+
+p{
+    color: rgb(232, 181, 151);
+    font-family:TheGirlNextDoor;
+    font-size: 3.3em;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+pre{
+ color: rgb(232, 181, 151);
+ font-family:TheGirlNextDoor;
+ font-size: 3.3em;
+ font-weight: 600;
+ margin-top: 0px;
+ text-align: center;
+}
+
+button{
+background-color:rgb(240, 135, 135);
+color:  rgb(232, 181, 151);
+border-radius: 5px ;
+font-size: 0.8em;
+font-family:TheGirlNextDoor;
+font-weight: 600;
+}
+
+i{
+    font-weight: 600;
+}
+
+#img1{
+    float: inline-end;
+margin: auto;
+}
+
+
+img{
+    display:inline-block;
+}
+
+#heading1{
+    text-align: justify;
+    display: inline;
+    margin:auto;
+}
+
+#p1{
+    text-align: left;
+   margin-top: 20px;
+}
+
+#heading2{
+    text-align: center;
+}
+
+.p2{
+    font-weight: 600;
+}
